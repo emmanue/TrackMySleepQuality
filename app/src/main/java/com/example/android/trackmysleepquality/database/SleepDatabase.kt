@@ -27,6 +27,7 @@ abstract class SleepDatabase : RoomDatabase() {
 
     abstract val sleepDatabaseDao: SleepDatabaseDao
 
+     // Well structured logic
     //Access getting or creating methods
     companion object {
 
